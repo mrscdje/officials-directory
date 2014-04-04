@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MRSC Washington City + Town Officials Directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>MRSC Washington City + Town Officials Directory</h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#" data-role="button" data-rel="back" data-icon="arrow-l">Back</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+        <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search by Officials Name..." data-inset="true">
+            <li><a href="mailto:mayor@aberdeenwa.gov" class="ui-btn ui-btn-inline" rel="external">Aberdeen Mayor - Bill Simpson</a></li>
+            <li>Aberdeen Councilmember Tim Alstrom </li>
+            <li>Aberdeen Councilmember  Tawni Andrews </li>
+            <li>Aberdeen Councilmember  James Cook </li>
+            <li>Aberdeen Councilmember  Jeff Cook </li>
+            <li>Aberdeen Councilmember deCourcy "Kathi" Hoder </li>
+            <li>Aberdeen Councilmember  Denny Lawrence </li>
+            <li>Aberdeen Councilmember Jerry Mills </li>
+            <li>Aberdeen Councilmember Doug Paling </li>
+            <li>Aberdeen Councilmember Alice Phelps </li>
+            <li>Aberdeen Councilmember  Alan Richrod </li>
+            <li>Aberdeen Councilmember Peter J. Schave </li>
+            <li>Aberdeen Councilmember Margo Shortt </li>
+            <li>Aberdeen Councilmember Bill Thompson</li>
+            <li><a href="mailto:zebra7@q.com" class="ui-btn ui-btn-inline" rel="external">Dayton Mayor Craig George</a></li>
+        </ul>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+
+     <div id="nav-panel" data-role="panel" data-theme="b" data-display="push" data-position-fixed="true">
+        <ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li><a href="#">by City</a></li>
+            <li><a href="#panel-fixed-page1">by Position</a></li>
+            <li><a href="#panel-fixed-page1">by Name</a></li>
+
+            </ul>
+    </div>
+
+</div><!-- /page -->
+
+</body>
+</html>
