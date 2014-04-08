@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
-    <script src="directory.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>  
     <style type="text/css">
         #map-page, #map-canvas { width: 100%; height: 100%; padding: 0; }
     </style>
 </head>
 <body>
-<div data-role="page">
+<div data-role="page" id="index">
     
 	<div data-role="header">
 		<h1>MRSC Washington City + Town Officials Directory</h1>
@@ -22,37 +22,33 @@
     
 
 	<div role="main" class="ui-content">
-        <div>Quick City Links: <a href="directory-a.html" target="_top">A</a> <a href="directory-b.html" target="_top">B</a> <a href="directory-c.html" target="_top">C</a> <a href="map-page.html" target="_top">Map</a></div>
+        <div>Quick City Links: <a href="directory-a.html" target="_top">A</a> <a href="directory-b.html" target="_top">B</a> <a href="directory-c.html" target="_top">C</a></div>
 		<div style="padding-top:10px;"><form>
     Search by Officials Name:<input data-type="search" id="searchForCollapsibleSetChildren">
 </form></div>
     <div data-role="collapsibleset" data-filter="true" data-inset="true" id="collapsiblesetForFilterChildren" data-input="#searchForCollapsibleSetChildren">
         <div data-role="collapsible" data-filtertext="Bill Simpson Tim Alstrom Tawni Andrews Jeff Cook Bob Waite">
             <h3>Camas</h3>
-            <p>Address: 200 E Market St. Aberdeen, WA 98520<br />Phone: <a href="tel:+13605334100">(360) 533-4100</a><br />Website: <a href="http://www.aberdeenwa.gov" rel="external">aberdeenwa.gov</a></p>
-            <p>Business Hours: 8:00am - 5:00pm<br />Council Meets: 2nd & 4th Wed - 7:15pm<br />County: Grays Harbor<br />Population: 16,860<br />Class: First<br />Incorporation: 1890<br />Form of Government: Mayor-Council</p>
-            <ul data-role="listview" data-inset="true">
-                <li><a href="mailto:mayor@aberdeenwa.gov" class="ui-btn ui-btn-inline" rel="external">Mayor - Bill Simpson | mayor@aberdeenwa.gov</a></li>
-                <li><a href="mailto:talstrom@aberdeenwa.gov" class="ui-btn ui-btn-inline" rel="external">Councilmember - Tim Alstrom | talstrom@aberdeenwa.gov</a></li>
-                <li>Councilmember - Tawni Andrews</li>
-                <li>Councilmember - Jeff Cook</li>
-                <li>Councilmember ...</li>
-                <li><a href="mailto:mayor@aberdeenwa.gov" class="ui-btn ui-btn-inline" rel="external">Bldg/Code Comp Directory - Bob Waite | bwaite@aberdeenwa.gov</a></li>
-                <li data-filtertext="More ...">More ...</li>
-            </ul>
+            <div><span style="float:right;"><a href="https://www.google.com/maps/place/200+E+Market+St+Aberdeen+Wa+98520" rel="external"><img src="google-maps.png" /></a></span> Address: 200 E Market St. Aberdeen, WA 98520 <br />Phone: <a href="tel:+13605334100">(360) 533-4100</a><br />Website: <a href="http://www.aberdeenwa.gov" rel="external">aberdeenwa.gov</a></div>
+            <p style="padding-bottom:5px; border-bottom:1px solid black;">Business Hours: 8:00am - 5:00pm<br />Council Meets: 2nd & 4th Wed - 7:15pm<br />County: Grays Harbor<br />Population: 16,860<br />Class: First<br />Incorporation: 1890<br />Form of Government: Mayor-Council</p>
+            <div style="padding-bottom:5px; border-bottom:1px solid black;"><strong>Bill Simpson</strong><span style="float:right;font-size:small; padding-top:4px;"><a href="mailto:mayor@aberdeenwa.gov" rel="external">mayor@aberdeenwa.gov</a></span>
+                
+                <br /><span style="font-size:small;">Mayor</span></div>
         </div>
         <div data-role="collapsible" data-filtertext="Kevin Richey Tanya Dashiell Doyle Inman Steven Lawrence Dave Malet">
             <h3>Carbonado</h3>
             <p>Address: S 1208 Lundstrom, Airway Heights WA 99001</p>
-            <ul data-role="listview" data-inset="true">
-                <li>Deputy Mayor - Kevin Richey</li>
-                <li>Councilmember - Tanya Dashiell</li>
-                <li>Councilmember - Doyle Inman</li>
-                <li>Councilmember - Steven Lawrence</li>
-                <li>Councilmember - Dave Malet</li>
-            </ul>
+            <div><strong>Kevin Richey</strong><br /><span style="font-size:small;">Deputy Mayor<br />
+            <a href="mailto:mayor@aberdeenwa.gov" rel="external">mayor@aberdeenwa.gov</a></span>
+            </div>
+            <hr />
+            <div><strong>Tanya Dashiell</strong><br /><span style="font-size:small;">Councilmember<br />
+                <a href="mailto:mayor@aberdeenwa.gov" rel="external">mayor@aberdeenwa.gov</a></span>
+            </div>
+            <hr />Councilmember - Doyle Inman
+            <hr />Councilmember - Steven Lawrence
+            <hr />Councilmember - Dave Malet
         </div>       
-    </div>
 	</div><!-- /content -->
 
 
@@ -71,14 +67,5 @@
     </div>
 
 </div><!-- /page -->
-
-<div data-role="page" id="map-page">
-    <div data-role="header" data-theme="a">
-    <h1>Maps</h1>
-    </div>
-    <div role="main" class="ui-content" id="map-canvas">
-        <!-- map loads here... -->
-    </div>
-</div>
 </body>
 </html>
