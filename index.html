@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
-    <script src="phonegap.js"></script>
+    <script src="cordova.js"></script>
 </head>
 <body>
 <div data-role="page">
@@ -23,7 +23,7 @@ Search by City:<input data-type="search" id="searchForCollapsibleSetChildren" da
 <div data-role="collapsibleset" data-filter="true" data-inset="true" id="collapsiblesetForFilterChildren" data-input="#searchForCollapsibleSetChildren">
 <div data-role="collapsible" data-filtertext="Aberdeen">
 <h3>Aberdeen</h3>
-<div><span style="float:right;"><a href="https://www.google.com/maps/place/200 E Market St Aberdeen WA 98520" rel="external"><img src="google-maps.png" /></a></span> Address: 200 E Market St Aberdeen WA 98520<br />
+<div><span style="float:right;"><a href="#" onclick="window.open('https://www.google.com/maps/place/200 E Market St Aberdeen WA 98520', '_blank', 'location=yes'); return false;"><img src="google-maps.png" /></a></span> Address: 200 E Market St Aberdeen WA 98520<br />
 Phone: <a href="tel:+13605334100">(360) 533-4100</a> | Fax: (360) 537-5741<br />
 Website: <a href="http://aberdeenwa.gov/" rel="external">aberdeenwa.gov/</a>
 </div><p style="padding-bottom:5px; border-bottom:1px solid black;">
