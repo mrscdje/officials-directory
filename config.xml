@@ -20,13 +20,14 @@
   <icon src="icon.png" />
 
   <preference name="phonegap-version" value="3.3.0" />
-  <preference name="fullscreen" value="true" />
+  <preference name="Fullscreen" value="true" />
   <preference name="webviewbounce" value="false" />
   <preference name="auto-hide-splash-screen" value="false" />
 
   <gap:splash src="splash.png" />
   <!-- plugin for external links-->
   <gap:plugin name="org.li8.inappbrowser" />
+
   
   <!-- android features so all features won't be enabled-->
   <feature name="http://api.phonegap.com/1.0/network" />
