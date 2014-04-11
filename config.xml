@@ -21,7 +21,7 @@
 
   <preference name="phonegap-version" value="3.3.0" />
   <preference name="fullscreen" value="true" />
-  <preference name="StatusBarOverlaysWebView" value="true" />
+  <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
   <preference name="auto-hide-splash-screen" value="false" />
 
