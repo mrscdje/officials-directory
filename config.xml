@@ -27,7 +27,7 @@
 
   <gap:splash src="splash.png" />
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
-  <gap:plugin name="org.li8.inappbrowser" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
   <!-- plugin for external links
   
   <gap:plugin name="com.phonegap.plugin.statusbar" />-->
