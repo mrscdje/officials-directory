@@ -27,8 +27,9 @@
 
   <gap:splash src="splash.png" />
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
-  <!-- plugin for external links
   <gap:plugin name="org.li8.inappbrowser" />
+  <!-- plugin for external links
+  
   <gap:plugin name="com.phonegap.plugin.statusbar" />-->
   
   <!-- android features so all features won't be enabled-->
