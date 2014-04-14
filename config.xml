@@ -20,12 +20,13 @@
   <icon src="icon.png" />
 
   <preference name="phonegap-version" value="3.3.0" />
-  <preference name="fullscreen" value="true" />
+  <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
   <preference name="auto-hide-splash-screen" value="false" />
 
   <gap:splash src="splash.png" />
+  <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
   <!-- plugin for external links
   <gap:plugin name="org.li8.inappbrowser" />
   <gap:plugin name="com.phonegap.plugin.statusbar" />-->
