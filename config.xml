@@ -23,7 +23,8 @@
   <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
-  <preference name="auto-hide-splash-screen" value="false" />
+  <!--<preference name="auto-hide-splash-screen" value="false" />-->
+  <preference name="SplashScreenDelay" value="500000" />
 
   <gap:splash src="splash.png" />
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
