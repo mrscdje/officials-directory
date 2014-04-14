@@ -26,9 +26,9 @@
   <preference name="auto-hide-splash-screen" value="false" />
 
   <gap:splash src="splash.png" />
-  <!-- plugin for external links-->
+  <!-- plugin for external links
   <gap:plugin name="org.li8.inappbrowser" />
-  <gap:plugin name="com.phonegap.plugin.statusbar" />
+  <gap:plugin name="com.phonegap.plugin.statusbar" />-->
   
   <!-- android features so all features won't be enabled-->
   <feature name="http://api.phonegap.com/1.0/network" />
