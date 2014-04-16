@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Officials Directory</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+<div data-role="page">
+<div data-role="header">
+<h1>MRSC Officials Directory</h1>
+<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+<a data-role="button" data-rel="back">Back</a>
+</div><!-- /header -->
+<div role="main" class="ui-content">
+
+<div data-role="controlgroup">
+<a href="#" class="ui-btn ui-corner-all">Officials- Title 'O'</a>
+</div>
+<ul data-role="listview" data-inset="true">
+<li><strong>Marco Malich</strong><br />
+<span style="font-size:small;">Operations Director</span><br /><span style="font-size:small;">Operations Director (Gig Harbor) <br /><br /><a href="mailto:malichm@cityofgigharbor.net">malichm@cityofgigharbor.net</a>City/Town Phone: <a href="tel:+12538518136">(253) 851-8136</a>
+</span></li>
+<li><strong>Bob Schmidt</strong><br />
+<span style="font-size:small;">Operations Director</span><br /><span style="font-size:small;">Operations Director (Cashmere) <br /><br /><a href="mailto:bob@cityofcashmere.org">bob@cityofcashmere.org</a>City/Town Phone: <a href="tel:+15097823513">(509) 782-3513</a>
+</span></li>
+<li><strong>Terry Gildersleeve</strong><br />
+<span style="font-size:small;">Operations/Maintenance Superintendent</span><br /><span style="font-size:small;">Operations/Maintenance Superintendent (Leavenworth) <br /><br /><a href="mailto:terryg@cityofleavenworth.com">terryg@cityofleavenworth.com</a>City/Town Phone: <a href="tel:+15095485275">(509) 548-5275</a>
+</span></li>
+</ul>
+</div><!-- /content -->
+<div data-role="footer">
+<h4>Page Footer</h4>
+</div><!-- /footer -->
+<div id="nav-panel" data-role="panel" data-theme="b" data-display="overlay" data-position-fixed="true">
+<ul data-role="listview">
+<li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="city-alpha.html">by City</a></li>
+<li><a href="official-alpha.html">by Official Name</a></li>
+<li><a href="title-alpha.html">by Official Title</a></li>
+</ul>
+</div>
+</div><!-- /page -->
+</body>
+</html>
