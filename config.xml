@@ -23,20 +23,17 @@
   <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
-  <!--<preference name="auto-hide-splash-screen" value="false" />-->
-  <preference name="SplashScreenDelay" value="500000" />
 
   <gap:splash src="splash.png" />
+
+  <!-- android preferences for splash scrren.-->
+  <preference name="SplashScreen" value="splash" />
+  <preference name="SplashScreenDelay" value="5000" />
+
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
   <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
-  <!-- plugin for external links
-  
-  <gap:plugin name="com.phonegap.plugin.statusbar" />-->
   
   <!-- android features so all features won't be enabled-->
   <feature name="http://api.phonegap.com/1.0/network" />
-  
-  
 
 </widget>
-
