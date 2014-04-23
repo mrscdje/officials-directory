@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'S'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'S'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="S">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Joe Sabey</strong><br /><span style="font-size:small;">Mayor (Hunts Point)<br /><a href="mailto:mayor@huntspoint-wa.gov">mayor@huntspoint-wa.gov</a><br />City/Town Phone: <a href="tel:+14254551834">(425) 455-1834</a>
 </span></li>
 <li><strong>Charles Sablan</strong><br /><span style="font-size:small;">Parks/Recreation Director (Chelan)<br /><a href="mailto:csablan@cityofchelan.us">csablan@cityofchelan.us</a><br />City/Town Phone: <a href="tel:+15096824037">(509) 682-4037</a>
@@ -63,7 +64,7 @@
 </span></li>
 <li><strong>Kari Sand</strong><br /><span style="font-size:small;">City Attorney (Medina)<br /><a href="mailto:kari@kenyondisend.com">kari@kenyondisend.com</a><br />City/Town Phone: <a href="tel:+14252336400">(425) 233-6400</a>
 </span></li>
-<li><strong>Daniel Sander</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br /><a href="mailto:millwoodcouncil2@gmail.com">millwoodcouncil2@gmail.com</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Daniel Sander</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br /><a href="mailto:council2@millwoodwa.us">council2@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Theresa Sanders</strong><br /><span style="font-size:small;">City Administrator (Spokane)<br /><a href="mailto:tsanders@spokanecity.org">tsanders@spokanecity.org</a><br />City/Town Phone: <a href="tel:+15096256250">(509) 625-6250</a>
 </span></li>
@@ -191,7 +192,7 @@
 </span></li>
 <li><strong>Janine Schnepf</strong><br /><span style="font-size:small;">City Clerk/Human Resources (Yelm)<br /><a href="mailto:janines@ci.yelm.wa.us">janines@ci.yelm.wa.us</a><br />City/Town Phone: <a href="tel:+13604583244">(360) 458-3244</a>
 </span></li>
-<li><strong>Richard Schoen</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Richard Schoen</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br /><a href="mailto:council1@millwoodwa.us">council1@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Roger Schoessel</strong><br /><span style="font-size:small;">City Engineer (Lacey)<br /><a href="mailto:rschoess@ci.lacey.wa.us">rschoess@ci.lacey.wa.us</a><br />City/Town Phone: <a href="tel:+13604913214">(360) 491-3214</a>
 </span></li>
@@ -1018,6 +1019,7 @@
 <li><strong>Kevin Swope</strong><br /><span style="font-size:small;">Councilmember (Hoquiam)<br /><a href="mailto:kswope@cityofhoquiam.com">kswope@cityofhoquiam.com</a><br />City/Town Phone: <a href="tel:+13605325700">(360) 532-5700</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -1028,7 +1030,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

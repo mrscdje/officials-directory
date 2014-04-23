@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'L'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'L'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="L">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Karissa Labes</strong><br /><span style="font-size:small;">Councilmember (Lind)<br /><a href="mailto:townoflind@lindwa.com">townoflind@lindwa.com</a><br />City/Town Phone: <a href="tel:+15096773241">(509) 677-3241</a>
 </span></li>
 <li><strong>Larry LaBolle</strong><br /><span style="font-size:small;">Councilmember (Latah)<br /><a href="mailto:latahtown@gmail.com">latahtown@gmail.com</a><br />City/Town Phone: <a href="tel:+15092863471">(509) 286-3471</a>
@@ -446,6 +447,7 @@
 <li><strong>Ryan Lyyski</strong><br /><span style="font-size:small;">City Engineer (Ellensburg)<br /><a href="mailto:lyyskir@ci.ellensburg.wa.us">lyyskir@ci.ellensburg.wa.us</a><br />City/Town Phone: <a href="tel:+15099627204">(509) 962-7204</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -456,7 +458,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

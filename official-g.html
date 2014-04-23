@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'G'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'G'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="G">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Chris Gaddis</strong><br /><span style="font-size:small;">Chief of Police (Normandy Park)<br /><a href="mailto:chrisg@ci.normandy-park.wa.us">chrisg@ci.normandy-park.wa.us</a><br />City/Town Phone: <a href="tel:+12062487603">(206) 248-7603</a>
 </span></li>
 <li><strong>Jeff Gadman</strong><br /><span style="font-size:small;">Councilmember (Lacey)<br /><a href="mailto:jgadman@ci.lacey.wa.us">jgadman@ci.lacey.wa.us</a><br />City/Town Phone: <a href="tel:+13604913214">(360) 491-3214</a>
@@ -474,6 +475,7 @@
 <li><strong>Tony Guzman</strong><br /><span style="font-size:small;">Councilmember (Wapato)<br /><a href="mailto:tonyguzman@netscape.com">tonyguzman@netscape.com</a><br />City/Town Phone: <a href="tel:+15098772334">(509) 877-2334</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -484,7 +486,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

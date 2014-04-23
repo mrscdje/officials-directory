@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'M'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'M'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="M">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Richard Maag</strong><br /><span style="font-size:small;">Public Works Foreman (Brier)<br /><a href="mailto:rmaag@ci.brier.wa.us">rmaag@ci.brier.wa.us</a><br />City/Town Phone: <a href="tel:+14257755440">(425) 775-5440</a>
 </span></li>
 <li><strong>Scott MacColl</strong><br /><span style="font-size:small;">Intergovernmental Programs Manager (Shoreline)<br /><a href="mailto:smaccoll@shorelinewa.gov">smaccoll@shorelinewa.gov</a><br />City/Town Phone: <a href="tel:+12068012700">(206) 801-2700</a>
@@ -195,7 +196,7 @@
 </span></li>
 <li><strong>Derek M. Matheson</strong><br /><span style="font-size:small;">City Manager (Covington)<br /><a href="mailto:dmatheson@covingtonwa.gov">dmatheson@covingtonwa.gov</a><br />City/Town Phone: <a href="tel:+12534802400">(253) 480-2400</a>
 </span></li>
-<li><strong>Deborah Matkin</strong><br /><span style="font-size:small;">City Treasurer (Millwood)<br /><a href="mailto:millwoodtreasurer@comcast.net">millwoodtreasurer@comcast.net</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Deborah Matkin</strong><br /><span style="font-size:small;">City Treasurer (Millwood)<br /><a href="mailto:treasurer@millwoodwa.us">treasurer@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Mike Matlock</strong><br /><span style="font-size:small;">Community Development Director (Tumwater)<br /><a href="mailto:mmatlock@ci.tumwater.wa.us">mmatlock@ci.tumwater.wa.us</a><br />City/Town Phone: <a href="tel:+13607545855">(360) 754-5855</a>
 </span></li>
@@ -792,6 +793,7 @@
 <li><strong>Patricia Myrdal</strong><br /><span style="font-size:small;">Deputy Clerk (Stanwood)<br /><a href="mailto:patricia@ci.stanwood.wa.us">patricia@ci.stanwood.wa.us</a><br />City/Town Phone: <a href="tel:+13606292181">(360) 629-2181</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -802,7 +804,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

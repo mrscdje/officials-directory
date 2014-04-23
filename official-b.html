@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'B'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'B'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="B">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Gary Baar</strong><br /><span style="font-size:small;">Fire Chief (Lynden)<br />City/Town Phone: <a href="tel:+13603541170">(360) 354-1170</a>
 </span></li>
 <li><strong>Mary Babb</strong><br /><span style="font-size:small;">Councilmember (Deer Park)<br />City/Town Phone: <a href="tel:+15092768801">(509) 276-8801</a>
@@ -43,7 +44,7 @@
 </span></li>
 <li><strong>Michael Bailey</strong><br /><span style="font-size:small;">Finance Director (Redmond)<br /><a href="mailto:mebailey@redmond.gov">mebailey@redmond.gov</a><br />City/Town Phone: <a href="tel:+14255562900">(425) 556-2900</a>
 </span></li>
-<li><strong>Glenn Bailey</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br /><a href="mailto:glenn.bailey@cityofmillwood.org">glenn.bailey@cityofmillwood.org</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Glenn Bailey</strong><br /><span style="font-size:small;">Councilmember (Millwood)<br /><a href="mailto:council4@millwoodwa.us">council4@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Joanna Bailey</strong><br /><span style="font-size:small;">Library Services Director (Pullman)<br />City/Town Phone: <a href="tel:+15093383208">(509) 338-3208</a>
 </span></li>
@@ -437,6 +438,10 @@
 </span></li>
 <li><strong>Katherine Bohnet</strong><br /><span style="font-size:small;">Mayor (Wilson Creek)<br /><a href="mailto:townofwc@odessaoffice.com">townofwc@odessaoffice.com</a><br />City/Town Phone: <a href="tel:+15093452531">(509) 345-2531</a>
 </span></li>
+<li><strong>Katie Bolam</strong><br /><span style="font-size:small;">City Clerk (Milton)<br /><a href="mailto:kbolam@cityofmilton.net">kbolam@cityofmilton.net</a><br />City/Town Phone: <a href="tel:+12539228733">(253) 922-8733</a>
+</span></li>
+<li><strong>Katie Bolam</strong><br /><span style="font-size:small;">Human Resources Generalist (Milton)<br /><a href="mailto:kbolam@cityofmilton.net">kbolam@cityofmilton.net</a><br />City/Town Phone: <a href="tel:+12539228733">(253) 922-8733</a>
+</span></li>
 <li><strong>Amy Bolen</strong><br /><span style="font-size:small;">Executive Assistant (Kirkland)<br /><a href="mailto:abolen@kirklandwa.gov">abolen@kirklandwa.gov</a><br />City/Town Phone: <a href="tel:+14255873000">(425) 587-3000</a>
 </span></li>
 <li><strong>Tom  Boling</strong><br /><span style="font-size:small;">Councilmember (Elma)<br /><a href="mailto:boling@cityofelma.com">boling@cityofelma.com</a><br />City/Town Phone: <a href="tel:+13604822212">(360) 482-2212</a>
@@ -802,6 +807,7 @@
 <li><strong>Connie Byers</strong><br /><span style="font-size:small;">Clerk-Treasurer (Goldendale)<br /><a href="mailto:cbyers@ci.goldendale.wa.us">cbyers@ci.goldendale.wa.us</a><br />City/Town Phone: <a href="tel:+15097733771">(509) 773-3771</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -812,7 +818,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'T'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'T'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="T">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Cowlitz-Wahkiakum Council of Gov T.J. Keiran</strong><br /><span style="font-size:small;">Planning Director (Castle Rock)<br /><a href="mailto:tkeiran@cwcog.org">tkeiran@cwcog.org</a><br />City/Town Phone: <a href="tel:+13602748181">(360) 274-8181</a>
 </span></li>
 <li><strong>Bruce Tabb</strong><br /><span style="font-size:small;">Councilmember (Ellensburg)<br />City/Town Phone: <a href="tel:+15099627204">(509) 962-7204</a>
@@ -361,13 +362,14 @@
 </span></li>
 <li><strong>Lloyd Tyler</strong><br /><span style="font-size:small;">Finance Director (Vancouver)<br />City/Town Phone: <a href="tel:+13604878600">(360) 487-8600</a>
 </span></li>
-<li><strong>Lisa Tylor</strong><br /><span style="font-size:small;">Finance Director/City Clerk (Milton)<br /><a href="mailto:ltylor@cityofmilton.net">ltylor@cityofmilton.net</a><br />City/Town Phone: <a href="tel:+12539228733">(253) 922-8733</a>
+<li><strong>Lisa Tylor</strong><br /><span style="font-size:small;">Finance Director (Milton)<br /><a href="mailto:ltylor@cityofmilton.net">ltylor@cityofmilton.net</a><br />City/Town Phone: <a href="tel:+12539228733">(253) 922-8733</a>
 </span></li>
 <li><strong>David Tylor</strong><br /><span style="font-size:small;">Councilmember (Grand Coulee)<br />City/Town Phone: <a href="tel:+15096331105">(509) 633-1105</a>
 </span></li>
 <li><strong>David Tysz</strong><br /><span style="font-size:small;">Councilmember (Tekoa)<br />City/Town Phone: <a href="tel:+15092843861">(509) 284-3861</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -378,7 +380,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

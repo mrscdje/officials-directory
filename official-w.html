@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'W'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'W'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="W">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Heidi Wachter</strong><br /><span style="font-size:small;">City Attorney (Lakewood)<br /><a href="mailto:hwachter@cityoflakewood.us">hwachter@cityoflakewood.us</a><br />City/Town Phone: <a href="tel:+12535892489">(253) 589-2489</a>
 </span></li>
 <li><strong>Tim Wadham</strong><br /><span style="font-size:small;">Library Services Director (Puyallup)<br /><a href="mailto:TWadham@ci.puyallup.wa.us">TWadham@ci.puyallup.wa.us</a><br />City/Town Phone: <a href="tel:+12538414321">(253) 841-4321</a>
@@ -582,6 +583,7 @@
 <li><strong>Kelly Wynn</strong><br /><span style="font-size:small;">Sewer Superintendent (La Conner)<br /><a href="mailto:wwsvc@wwsvc.com">wwsvc@wwsvc.com</a><br />City/Town Phone: <a href="tel:+13604663125">(360) 466-3125</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -592,7 +594,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

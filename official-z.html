@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'Z'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'Z'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="Z">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Debbie Zabell</strong><br /><span style="font-size:small;">Assistant City Manager for Adminstrative Services (Edgewood)<br /><a href="mailto:debbie@cityofedgewood.org">debbie@cityofedgewood.org</a><br />City/Town Phone: <a href="tel:+12539523299">(253) 952-3299</a>
 </span></li>
 <li><strong>David Zabell</strong><br /><span style="font-size:small;">City Manager (Fife)<br /><a href="mailto:dzabell@cityoffife.org">dzabell@cityoffife.org</a><br />City/Town Phone: <a href="tel:+12539222489">(253) 922-2489</a>
@@ -68,6 +69,7 @@
 <li><strong>Toni Zunker</strong><br /><span style="font-size:small;">Executive Secretary (Pasco)<br /><a href="mailto:zunkert@pasco-wa.gov">zunkert@pasco-wa.gov</a><br />City/Town Phone: <a href="tel:+15095453404">(509) 545-3404</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -78,7 +80,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

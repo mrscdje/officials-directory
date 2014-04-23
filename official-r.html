@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'R'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'R'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="R">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Harry Raab</strong><br /><span style="font-size:small;">Councilmember (East Wenatchee)<br /><a href="mailto:hraab@east-wenatchee.com">hraab@east-wenatchee.com</a><br />City/Town Phone: <a href="tel:+15098849515">(509) 884-9515</a>
 </span></li>
 <li><strong>James Rackley</strong><br /><span style="font-size:small;">Councilmember (Bonney Lake)<br /><a href="mailto:JMRackley@aol.com">JMRackley@aol.com</a><br />City/Town Phone: <a href="tel:+12538628602">(253) 862-8602</a>
@@ -195,7 +196,7 @@
 </span></li>
 <li><strong>Zack Richardson</strong><br /><span style="font-size:small;">Civil Engineer (Kenmore)<br /><a href="mailto:zrichardson@kenmorewa.gov">zrichardson@kenmorewa.gov</a><br />City/Town Phone: <a href="tel:+14253988900">(425) 398-8900</a>
 </span></li>
-<li><strong>Tom Richardson</strong><br /><span style="font-size:small;">City Planner (Millwood)<br /><a href="mailto:planning@cityofmillwood.org">planning@cityofmillwood.org</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Tom Richardson</strong><br /><span style="font-size:small;">City Planner (Millwood)<br /><a href="mailto:tom.richardson@millwoodwa.us">tom.richardson@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Julie Richardson</strong><br /><span style="font-size:small;">City Clerk (West Richland)<br /><a href="mailto:julie@westrichland.org">julie@westrichland.org</a><br />City/Town Phone: <a href="tel:+15099673431">(509) 967-3431</a>
 </span></li>
@@ -203,7 +204,7 @@
 </span></li>
 <li><strong>Patricia Richardson</strong><br /><span style="font-size:small;">City Attorney (Federal Way)<br /><a href="mailto:patricia.richardson@cityoffederalway.com">patricia.richardson@cityoffederalway.com</a><br />City/Town Phone: <a href="tel:+12538357000">(253) 835-7000</a>
 </span></li>
-<li><strong>Tom Richardson</strong><br /><span style="font-size:small;">Clerk (Millwood)<br /><a href="mailto:tom.richardson@cityofmillwood.org">tom.richardson@cityofmillwood.org</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Tom Richardson</strong><br /><span style="font-size:small;">Clerk (Millwood)<br /><a href="mailto:tom.richardson@millwoodwa.us">tom.richardson@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Kevin Richey</strong><br /><span style="font-size:small;">Deputy Mayor (Airway Heights)<br /><a href="mailto:krichey@cawh.org">krichey@cawh.org</a><br />City/Town Phone: <a href="tel:+15092445578">(509) 244-5578</a>
 </span></li>
@@ -444,6 +445,7 @@
 <li><strong>Conrad Ryer</strong><br /><span style="font-size:small;">Councilmember (Stanwood)<br /><a href="mailto:conrad.ryer@ci.stanwood.wa.us">conrad.ryer@ci.stanwood.wa.us</a><br />City/Town Phone: <a href="tel:+13606292181">(360) 629-2181</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -454,7 +456,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

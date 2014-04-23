@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'N'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'N'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="N">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Dave Nail</strong><br /><span style="font-size:small;">Building Official (Bingen)<br />City/Town Phone: <a href="tel:+15094932122">(509) 493-2122</a>
 </span></li>
 <li><strong>Dave Nail</strong><br /><span style="font-size:small;">Building Inspector (Stevenson)<br /><a href="mailto:dave@ci.stevenson.wa.us">dave@ci.stevenson.wa.us</a><br />City/Town Phone: <a href="tel:+15094275970">(509) 427-5970</a>
@@ -208,6 +209,7 @@
 <li><strong>Gary W. Nystul</strong><br /><span style="font-size:small;">City Auditor (Bremerton)<br /><a href="mailto:gary.nystul@ci.bremerton.wa.us">gary.nystul@ci.bremerton.wa.us</a><br />City/Town Phone: <a href="tel:+13604735290">(360) 473-5290</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -218,7 +220,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

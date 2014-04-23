@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'K'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'K'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="Y">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Jim Kackman</strong><br /><span style="font-size:small;">Councilmember (Colfax)<br />City/Town Phone: <a href="tel:+15093973861">(509) 397-3861</a>
 </span></li>
 <li><strong>Byron Kaczmarski</strong><br /><span style="font-size:small;">Councilmember (Dayton)<br /><a href="mailto:byronkacz@gmail.com">byronkacz@gmail.com</a><br />City/Town Phone: <a href="tel:+15093822361">(509) 382-2361</a>
@@ -416,6 +417,7 @@
 <li><strong>Ginger Kyritsis</strong><br /><span style="font-size:small;">Councilmember (Concrete)<br />City/Town Phone: <a href="tel:+13608538401">(360) 853-8401</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -426,7 +428,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->

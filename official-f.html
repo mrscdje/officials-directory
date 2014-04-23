@@ -17,10 +17,11 @@
 </div><!-- /header -->
 <div role="main" class="ui-content">
 
-<div data-role="controlgroup">
-<a href="#" class="ui-btn ui-corner-all">Officials - Last Name 'F'</a>
-</div>
-<ul data-role="listview" data-inset="true">
+<h3>Officials - Last Name 'F'</h3>
+<div style="padding-top:10px;"><form class="ui-filterable">
+Search by Last Name: <input id="filterBasic-input" data-type="search" value="F">
+</form>
+<ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
 <li><strong>Daryl Faber</strong><br /><span style="font-size:small;">Parks/Recreation Director (Auburn)<br /><a href="mailto:dfaber@auburnwa.gov">dfaber@auburnwa.gov</a><br />City/Town Phone: <a href="tel:+12539313000">(253) 931-3000</a>
 </span></li>
 <li><strong>Rod Fadden</strong><br /><span style="font-size:small;">Public Works Superintendent (Sumas)<br /><a href="mailto:rfadden@cityofsumas.com">rfadden@cityofsumas.com</a><br />City/Town Phone: <a href="tel:+13609885711">(360) 988-5711</a>
@@ -231,7 +232,7 @@
 </span></li>
 <li><strong>Joshua Freed</strong><br /><span style="font-size:small;">Mayor (Bothell)<br /><a href="mailto:joshua.freed@ci.bothell.wa.us">joshua.freed@ci.bothell.wa.us</a><br />City/Town Phone: <a href="tel:+14254863256">(425) 486-3256</a>
 </span></li>
-<li><strong>Kevin Freeman</strong><br /><span style="font-size:small;">Mayor (Millwood)<br /><a href="mailto:kevin.freeman@cityofmillwood.org">kevin.freeman@cityofmillwood.org</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
+<li><strong>Kevin Freeman</strong><br /><span style="font-size:small;">Mayor (Millwood)<br /><a href="mailto:mayor@millwoodwa.us">mayor@millwoodwa.us</a><br />City/Town Phone: <a href="tel:+15099240960">(509) 924-0960</a>
 </span></li>
 <li><strong>Ross Freeman</strong><br /><span style="font-size:small;">Sustainability/Communications Manager (Mercer Island)<br /><a href="mailto:ross.freeman@mercergov.org">ross.freeman@mercergov.org</a><br />City/Town Phone: <a href="tel:+12062757600">(206) 275-7600</a>
 </span></li>
@@ -288,6 +289,7 @@
 <li><strong>David  Futcher</strong><br /><span style="font-size:small;">Mayor (Kelso)<br /><a href="mailto:kelso@futcher.com">kelso@futcher.com</a><br />City/Town Phone: <a href="tel:+13604230900">(360) 423-0900</a>
 </span></li>
 </ul>
+</div>
 </div><!-- /content -->
 <div data-role="footer">
 <h4>&copy; MRSC <a href="#" onclick="window.open('http://www.mrsc.org/', '_system'); return false;">www.mrsc.org</a></h4>
@@ -298,7 +300,6 @@
 <li><a href="index.html">Home</a></li>
 <li><a href="city-alpha.html">by City</a></li>
 <li><a href="official-alpha.html">by Official Name</a></li>
-<li><a href="title-alpha.html">by Official Title</a></li>
 </ul>
 </div>
 </div><!-- /page -->
