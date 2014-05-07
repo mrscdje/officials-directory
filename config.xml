@@ -73,6 +73,8 @@
   <!-- Retina iPad -->
   <gap:splash src="Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
   <gap:splash src="Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1536" />
+  
+  <!-- still need to add android splash screens-->
 
 
   <!-- android preferences for splash scrren.-->
