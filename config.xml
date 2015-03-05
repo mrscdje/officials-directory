@@ -52,7 +52,7 @@
   <icon src="res/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 
 
-  <preference name="phonegap-version" value="3.3.0" />
+  <preference name="phonegap-version" value="3.6.3" />
   <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
