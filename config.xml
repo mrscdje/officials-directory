@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.mrsc.officialsdirectory"
-    versionCode = "12"
-    version     = "1.0.2" >
+    versionCode = "13"
+    version     = "1.0.3" >
 
   <!-- versionCode is optional and Android only -->
 
@@ -52,7 +52,7 @@
   <icon src="res/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 
 
-  <preference name="phonegap-version" value="3.6.3" />
+  <preference name="phonegap-version" value="3.7.0" />
   <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
