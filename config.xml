@@ -82,7 +82,6 @@
   <preference name="SplashScreenDelay" value="5000" />
 
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
-  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
   
   <!-- android features so all features won't be enabled-->
   <feature name="http://api.phonegap.com/1.0/network" />
