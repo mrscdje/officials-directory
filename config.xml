@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.mrsc.officialsdirectory"
-    versionCode = "22"
-    version     = "2.0.2" >
+    versionCode = "23"
+    version     = "2.0.3" >
 
   <!-- versionCode is optional and Android only -->
 
@@ -52,7 +52,7 @@
   <icon src="res/drawable-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 
 
-  <preference name="phonegap-version" value="cli-5.1.1" />
+  <preference name="phonegap-version" value="cli-5.2.0" />
   <preference name="Fullscreen" value="true" />
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="webviewbounce" value="false" />
@@ -82,7 +82,6 @@
   <preference name="SplashScreenDelay" value="5000" />
 
   <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
-  <!-- didn't have inappbrowser for IOS -->
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm" /> 
   
   <!-- android features so all features won't be enabled-->
