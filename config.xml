@@ -81,7 +81,8 @@
   <preference name="SplashScreen" value="splash" />
   <preference name="SplashScreenDelay" value="5000" />
 
-  <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+  <!--<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" /> -->
+  <gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" />
   <gap:plugin name="cordova-plugin-inappbrowser" source="npm" /> 
   
   <!-- android features so all features won't be enabled-->
